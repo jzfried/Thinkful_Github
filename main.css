@@ -42,19 +42,19 @@ table {
 	border-spacing: 0;
 }
 #topnav {
-	width: 100%
+	width: 100%;
 	height: 30px;
-	display: block;
-	position: absolute;
-	top: 0;
 	font-size: 13px;
 	font-family: arial;
 	list-style-type: none;
 	margin-bottom: 20px;
 }
+ul {
+	text-align: right;
+}
 ul>li {
 	display: inline-block;
-	float: right;
+	text-align: right;
 	margin: 15px;
 	margin-top: 25px;
 	color: #369;
@@ -69,10 +69,13 @@ li:first-child {
 }
 li:last-child{
 	display: inline-block;
-	float: right;
 	margin: 15px;
 	margin-top: 25px;
 	color: #18afe0;
+}
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
 }
 #logo {
 	display: block;
@@ -103,8 +106,13 @@ h3{
 .parent {
 	margin: 20px;
 	text-align: center;
+	text-decoration: none;
 	color: #222;
 	margin: auto; /*another way to center*/
+}
+.parent a {
+	display: inline-block;
+	text-decoration: none;
 }
 .child {
 	margin: 15px 20px 5px;
